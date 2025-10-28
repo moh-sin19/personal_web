@@ -65,6 +65,12 @@ export default function Home() {
               </Badge>
             </RevealFx>
           )}
+          <RevealFx translateY="4" fillWidth horizontal="center" paddingBottom="24">
+            <Avatar
+              src={person.avatar}
+              size="xl"
+            />
+          </RevealFx>
           <RevealFx translateY="4" fillWidth horizontal="center" paddingBottom="16">
             <Heading wrap="balance" variant="display-strong-l">
               {home.headline}
