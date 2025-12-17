@@ -23,7 +23,7 @@ export function ProjectsTable({ range, exclude }: ProjectsTableProps) {
     range
       ? sortedProjects.slice(range[0] - 1, range[1] ?? sortedProjects.length)
       : sortedProjects
-  ).slice(0, 6);
+  ).slice(0, 7);
 
   return (
     <>
