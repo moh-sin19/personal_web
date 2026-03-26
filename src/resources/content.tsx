@@ -100,13 +100,65 @@ const about: About = {
     title: "Work Experience",
     experiences: [
       {
+        company: "Sydney UAV Engineering",
+        timeframe: "June 2024 - Present",
+        role: "Full Stack Software Engineer",
+        achievements: [
+          <>
+            Developed, designed and implemented the SUAVE website, accommodating for over 2,350 monthly users.
+          </>,
+          <>
+            Iterated and refined the website through consistent feedback from the team lead, achieving a 17%
+            improvement in accessibility metrics and delivering a user-centric experience.
+          </>,
+          <>
+            Worked directly with a three person team of technical and non-technical members, eﬀectively bridging the
+            gap between complex technical concepts and business needs to drive successful project outcomes.
+          </>,
+        ],
+        // images: [
+        //   // optional: leave the array empty if you don't want to display images
+        //   {
+        //     src: "/images/projects/project-01/suave_expanded.jpg",
+        //     alt: "Once UI Project",
+        //     width: 16,
+        //     height: 9,
+        //   },
+        // ],
+      },
+      {
         company: "Sydney Interplanetary Rover Initiative",
-        timeframe: "July 2025 - Present",
+        timeframe: "July 2025 - March 2026",
         role: "Machine Learning Specialist",
         achievements: [
           <>
             Currently working on Deep Learning models to accelerate the detection of 
             water and ilmenite concentrations in lunar regolith samples.  
+          </>,
+        ],
+        images: [
+          // optional: leave the array empty if you don't want to display images
+          //{
+            //src: "/images/projects/project-01/siri_updated.jpg",
+            //alt: "Once UI Project",
+            //width: 16,
+            //height: 9,
+          //},
+        ],
+      },
+      {
+        company: "Sydney University Cyber Security Society",
+        timeframe: "June 2025 - March 2026",
+        role: "Technology Subcommittee",
+        achievements: [
+          <>
+          Collaborated on the redesign of the official society website, 
+          implementing responsive UI components and modern front-end practices 
+          to improve member engagement and resource accessibility.
+          </>,
+          <>
+          Architected technical infrastructure and developed diverse challenge modules for Capture The 
+          Flag (CTF) competitions, focusing on web security and cryptography.
           </>,
         ],
         images: [
@@ -135,33 +187,6 @@ const about: About = {
         ],
         images: [
         ],
-      },
-      {
-        company: "Sydney UAV Engineering",
-        timeframe: "June 2024 - Present",
-        role: "Full Stack Software Engineer",
-        achievements: [
-          <>
-            Developed, designed and implemented the SUAVE website, accommodating for over 2,350 monthly users.
-          </>,
-          <>
-            Iterated and refined the website through consistent feedback from the team lead, achieving a 17%
-            improvement in accessibility metrics and delivering a user-centric experience.
-          </>,
-          <>
-            Worked directly with a three person team of technical and non-technical members, eﬀectively bridging the
-            gap between complex technical concepts and business needs to drive successful project outcomes.
-          </>,
-        ],
-        // images: [
-        //   // optional: leave the array empty if you don't want to display images
-        //   {
-        //     src: "/images/projects/project-01/suave_expanded.jpg",
-        //     alt: "Once UI Project",
-        //     width: 16,
-        //     height: 9,
-        //   },
-        // ],
       },
     ],
   },
