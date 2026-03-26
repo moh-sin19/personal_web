@@ -128,7 +128,7 @@ const about: About = {
       },
       {
         company: "Sydney Interplanetary Rover Initiative",
-        timeframe: "July 2025 - March 2026",
+        timeframe: "July 2025 - February 2026",
         role: "Machine Learning Specialist",
         achievements: [
           <>
@@ -148,7 +148,7 @@ const about: About = {
       },
       {
         company: "Sydney University Cyber Security Society",
-        timeframe: "June 2025 - March 2026",
+        timeframe: "June 2025 - February 2026",
         role: "Technology Subcommittee",
         achievements: [
           <>
