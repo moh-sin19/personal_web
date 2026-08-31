@@ -60,7 +60,7 @@ export const Header = () => {
       <Row
         fitHeight
         className={styles.position}
-        position="sticky"
+        position="sticky" 
         as="header"
         zIndex={9}
         fillWidth
