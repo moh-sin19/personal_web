@@ -32,11 +32,6 @@ const social: Social = [
     link: "https://www.linkedin.com/in/mohsinsiddiqui10/",
   },
   {
-    name: "Twitter",
-    icon: "twitter",
-    link: "https://x.com/semicolon404",
-  },
-  {
     name: "Email",
     icon: "email",
     link: `mailto:${person.email}`,
